@@ -1,6 +1,6 @@
 FROM apache/airflow:2.9.3
-COPY requirements.txt /
-COPY .env /
+# COPY requirements.txt /
+COPY . /
 RUN pip install --user --upgrade pip
 RUN pip install dhis2.py
 RUN pip install 'apache-airflow[apache-kafka]'

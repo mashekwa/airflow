@@ -1,0 +1,5 @@
+# dhis2.py==2.3.0
+pandas
+requests
+apache-airflow-providers-postgres
+# scikit-learn
